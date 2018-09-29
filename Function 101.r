@@ -15,7 +15,7 @@ plot (input,
 
 #polynomial function
 f <- function(x){
-    fx <- (x^5-x)/x + x^2
+    fx <- 1/4*(x^3-4*x^2+x)+12
     return(fx)
 }
 
